@@ -1,0 +1,1 @@
+import{D as e,H as t,O as n,Y as r,g as i,q as a,y as o}from"../chunks/D5Y3E_xM.js";import"../chunks/xihTtKlq.js";function s(s,c){var l=n();i(`12qhfyh`,e=>{t(()=>{a.title=`Warren — what's circulating where`})}),o(r(l),()=>c.children),e(s,l)}export{s as component};

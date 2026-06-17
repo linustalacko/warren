@@ -1,0 +1,154 @@
+{
+  "generated_at": "2026-06-16 18:12",
+  "totals": {
+    "events": 16327,
+    "clusters": 6483,
+    "sources": 4,
+    "diseases": 204,
+    "countries": 42,
+    "geocoded": 16327
+  },
+  "freshness": [
+    {
+      "source": "aphis_hpai",
+      "events": 10451,
+      "diseases": 1,
+      "species": 192,
+      "countries": 1,
+      "newest": "2025-04-15",
+      "oldest": "2021-12-30",
+      "staleness_days": 427,
+      "host_categories": {
+        "wild": 9147,
+        "domestic": 1304
+      }
+    },
+    {
+      "source": "whispers",
+      "events": 2870,
+      "diseases": 151,
+      "species": 306,
+      "countries": 2,
+      "newest": "2026-06-09",
+      "oldest": "2001-03-31",
+      "staleness_days": 7,
+      "host_categories": {
+        "wild": 2831,
+        "domestic": 39
+      }
+    },
+    {
+      "source": "cdc_birdflu",
+      "events": 2859,
+      "diseases": 1,
+      "species": 0,
+      "countries": 1,
+      "newest": "2026-06-08",
+      "oldest": "2022-03-10",
+      "staleness_days": 8,
+      "host_categories": {
+        "environmental": 2859
+      }
+    },
+    {
+      "source": "promed",
+      "events": 147,
+      "diseases": 58,
+      "species": 5,
+      "countries": 42,
+      "newest": "2026-06-16",
+      "oldest": "2026-06-09",
+      "staleness_days": 0,
+      "host_categories": {
+        "human": 112,
+        "domestic": 28,
+        "unknown": 5,
+        "wild": 2
+      }
+    }
+  ],
+  "fragmentation": {
+    "disease_raw_strings": 213,
+    "disease_terms": 204,
+    "disease_unmapped": 1981,
+    "disease_unmapped_pct": 12.1,
+    "species_raw_strings": 591,
+    "species_resolved": 16327,
+    "species_unmapped": 3670,
+    "geocode_total": 16327,
+    "geocode_miss": 0,
+    "geocode_methods": {
+      "source_provided": 13287,
+      "centroid_state": 3040
+    },
+    "dedup_clusters": 6483,
+    "dedup_assignments": 16327
+  },
+  "disease_collapses": [
+    {
+      "controlled_term": "Highly pathogenic avian influenza",
+      "distinct_raw_strings": 4
+    },
+    {
+      "controlled_term": "Avian botulism",
+      "distinct_raw_strings": 3
+    },
+    {
+      "controlled_term": "Avian influenza (unspecified)",
+      "distinct_raw_strings": 3
+    },
+    {
+      "controlled_term": "White-nose syndrome",
+      "distinct_raw_strings": 2
+    },
+    {
+      "controlled_term": "Rabbit hemorrhagic disease",
+      "distinct_raw_strings": 2
+    },
+    {
+      "controlled_term": "Acinetobacter Baumannii",
+      "distinct_raw_strings": 1
+    },
+    {
+      "controlled_term": "Pests",
+      "distinct_raw_strings": 1
+    },
+    {
+      "controlled_term": "Parasitism (Spirorchis Sp.)",
+      "distinct_raw_strings": 1
+    },
+    {
+      "controlled_term": "Parasitism (Trematode, Not Otherwise Specified)",
+      "distinct_raw_strings": 1
+    },
+    {
+      "controlled_term": "Parvovirus",
+      "distinct_raw_strings": 1
+    },
+    {
+      "controlled_term": "Pasteurellosis",
+      "distinct_raw_strings": 1
+    },
+    {
+      "controlled_term": "Pending",
+      "distinct_raw_strings": 1
+    },
+    {
+      "controlled_term": "Penetrating Trauma (Gunshot)",
+      "distinct_raw_strings": 1
+    },
+    {
+      "controlled_term": "Penetrating Trauma (Not Otherwise Specified)",
+      "distinct_raw_strings": 1
+    },
+    {
+      "controlled_term": "Peritonitis",
+      "distinct_raw_strings": 1
+    }
+  ],
+  "dedup": {
+    "clusters": 6483,
+    "cross_source_assignments": 1020,
+    "within_source_assignments": 10637
+  }
+}
